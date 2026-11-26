@@ -1,0 +1,14 @@
+# 小程序源码、工具脚本、测试与截图都进镜像没用，只拷 app/
+miniprogram/
+tools/
+tests/
+_shots/
+data/
+*.md
+*.log
+*.zip
+*.db
+*.db.*
+__pycache__/
+*.pyc
+.git/

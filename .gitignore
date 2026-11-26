@@ -1,0 +1,36 @@
+# ---- 运行产生的 ----
+__pycache__/
+*.py[cod]
+*.log
+
+# ---- 数据库备份（只保留 data/adc.db 主库）----
+*.db.bak
+*.db.bak*
+*.db.before*
+*.db.pre*
+*.db.rev*
+*.db.review
+*.db.pretest
+*.db.preverify
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+~$*
+
+# ---- 小程序开发工具本地产物 ----
+project.private.config.json
+miniprogram_npm/
+
+# ---- 云端部署包 ----
+_deploy_*.zip
+_cloudrun_info.txt
+
+# ---- 临时脚本与截图（不入库）----
+_tmp_*
+_t*_check.py
+_rv*/
+_shots/
